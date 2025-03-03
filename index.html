@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Olivia!</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #a2a2f9, #f5f5f5);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 4em;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            margin-top: 50px;
+            color: #6a5acd;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        img {
+            width: 400px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
+            animation: zoomIn 2s ease-in-out;
+        }
+
+        .message {
+            font-size: 1.8em;
+            margin-top: 30px;
+            color: #6a5acd;
+            animation: slideUp 2s ease-out;
+        }
+
+        .poem {
+            font-size: 1.5em;
+            margin-top: 40px;
+            color: #333;
+            font-style: italic;
+            max-width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.8;
+            animation: fadeIn 4s ease-in-out;
+        }
+
+        .balloon {
+            position: absolute;
+            width: 50px;
+            height: 80px;
+            background-color: #d3c0d3;
+            border-radius: 50%;
+            animation: float 3s ease-in-out infinite;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .balloon1 { left: 10%; animation-delay: 0s; }
+        .balloon2 { left: 30%; animation-delay: 1s; }
+        .balloon3 { left: 50%; animation-delay: 2s; }
+        .balloon4 { left: 70%; animation-delay: 3s; }
+        .balloon5 { left: 90%; animation-delay: 4s; }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        @keyframes zoomIn {
+            0% { transform: scale(0.5); }
+            100% { transform: scale(1); }
+        }
+
+        @keyframes slideUp {
+            0% { transform: translateY(30px); opacity: 0; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-50px); }
+            100% { transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <h1>🎉 Happy Birthday Olivia! 🎂</h1>
+    <img src="https://source.unsplash.com/400x400/?birthday,cake" alt="Birthday Cake">
+    <p class="message">Wishing you a fantastic year ahead filled with joy, success, and lots of love! 🥳</p>
+
+    <div class="poem">
+        <p>
+            On your special day, Olivia dear, <br>
+            May all your dreams come true this year.<br>
+            With happiness that never ends, <br>
+            And joy that lasts through all your trends.<br><br>
+            A wish for love, a wish for light, <br>
+            For you to shine so clear, so bright.<br>
+            May laughter echo, hearts align, <br>
+            Happy Birthday, Olivia, you're divine! 🎉
+        </p>
+    </div>
+
+    <!-- Balloons -->
+    <div class="balloon balloon1"></div>
+    <div class="balloon balloon2"></div>
+    <div class="balloon balloon3"></div>
+    <div class="balloon balloon4"></div>
+    <div class="balloon balloon5"></div>
+
+    <audio controls autoplay>
+        <source src="happy-birthday-song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
+<ALOASK-SEPARATE-EDITORS>html {
+   background: linear-gradient(to right, dodgerblue 0%, deepskyblue 100%);
+}
+h1{
+   color: white;
+}
+<ALOASK-SEPARATE-EDITORS>console.log('JavaScript Console');
